@@ -25,6 +25,7 @@
         
         UIImageView *pictureView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height)];
         self.pictureView = pictureView;
+        pictureView.contentMode = UIViewContentModeScaleAspectFill;
         //添加到父视图collertionViewCell上面
         [self.contentView addSubview:self.pictureView];
         
@@ -37,7 +38,7 @@
 //        titleLabe.backgroundColor = [UIColor clearColor];
         self.titleLabe = titleLabe;
         //添加到父视图collertionViewCell上面
-        [self.pictureView addSubview:self.titleLabe];
+//        [self.pictureView addSubview:self.titleLabe];
     }
     return self;
 }

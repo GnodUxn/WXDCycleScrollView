@@ -28,6 +28,10 @@
 		03F0C6441D155CEA0097CF6F /* mini3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03F0C6391D155CEA0097CF6F /* mini3.jpg */; };
 		03F0C6451D155CEA0097CF6F /* mini4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03F0C63A1D155CEA0097CF6F /* mini4.jpg */; };
 		03F0C6461D155CEA0097CF6F /* mini5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03F0C63B1D155CEA0097CF6F /* mini5.jpg */; };
+		228068321D9A4F5A0025DB53 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2280682F1D9A4F5A0025DB53 /* 1.jpg */; };
+		228068331D9A4F5A0025DB53 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 228068301D9A4F5A0025DB53 /* 2.jpg */; };
+		228068341D9A4F5A0025DB53 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 228068311D9A4F5A0025DB53 /* 3.jpg */; };
+		228068371D9A71F30025DB53 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 228068361D9A71F30025DB53 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,11 @@
 		03F0C6391D155CEA0097CF6F /* mini3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mini3.jpg; sourceTree = "<group>"; };
 		03F0C63A1D155CEA0097CF6F /* mini4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mini4.jpg; sourceTree = "<group>"; };
 		03F0C63B1D155CEA0097CF6F /* mini5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mini5.jpg; sourceTree = "<group>"; };
+		2280682F1D9A4F5A0025DB53 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		228068301D9A4F5A0025DB53 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		228068311D9A4F5A0025DB53 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		228068351D9A71F30025DB53 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		228068361D9A71F30025DB53 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,8 @@
 		03F0C5D71D1543DD0097CF6F = {
 			isa = PBXGroup;
 			children = (
+				228068351D9A71F30025DB53 /* UIView+Extension.h */,
+				228068361D9A71F30025DB53 /* UIView+Extension.m */,
 				03F0C6301D155CEA0097CF6F /* img */,
 				03F0C5E21D1543DD0097CF6F /* 31-无限滚动 */,
 				03F0C5FC1D1543DD0097CF6F /* 31-无限滚动Tests */,
@@ -210,6 +221,9 @@
 		03F0C6301D155CEA0097CF6F /* img */ = {
 			isa = PBXGroup;
 			children = (
+				2280682F1D9A4F5A0025DB53 /* 1.jpg */,
+				228068301D9A4F5A0025DB53 /* 2.jpg */,
+				228068311D9A4F5A0025DB53 /* 3.jpg */,
 				03F0C6311D155CEA0097CF6F /* icon1.jpg */,
 				03F0C6321D155CEA0097CF6F /* icon2.jpg */,
 				03F0C6331D155CEA0097CF6F /* icon3.jpg */,
@@ -328,17 +342,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228068341D9A4F5A0025DB53 /* 3.jpg in Resources */,
 				03F0C5F31D1543DD0097CF6F /* LaunchScreen.storyboard in Resources */,
 				03F0C6461D155CEA0097CF6F /* mini5.jpg in Resources */,
 				03F0C6441D155CEA0097CF6F /* mini3.jpg in Resources */,
 				03F0C63E1D155CEA0097CF6F /* icon3.jpg in Resources */,
 				03F0C6411D155CEA0097CF6F /* icon6.jpg in Resources */,
+				228068331D9A4F5A0025DB53 /* 2.jpg in Resources */,
 				03F0C5F01D1543DD0097CF6F /* Assets.xcassets in Resources */,
 				03F0C63C1D155CEA0097CF6F /* icon1.jpg in Resources */,
 				03F0C63F1D155CEA0097CF6F /* icon4.jpg in Resources */,
 				03F0C6421D155CEA0097CF6F /* mini1.jpg in Resources */,
 				03F0C63D1D155CEA0097CF6F /* icon2.jpg in Resources */,
 				03F0C6401D155CEA0097CF6F /* icon5.jpg in Resources */,
+				228068321D9A4F5A0025DB53 /* 1.jpg in Resources */,
 				03F0C6431D155CEA0097CF6F /* mini2.jpg in Resources */,
 				03F0C6451D155CEA0097CF6F /* mini4.jpg in Resources */,
 			);
@@ -368,6 +385,7 @@
 				03F0C6241D1553080097CF6F /* WXDCycleScrollView.m in Sources */,
 				03F0C5EB1D1543DD0097CF6F /* ViewController.m in Sources */,
 				03F0C62D1D15553C0097CF6F /* WXDNewsCell.m in Sources */,
+				228068371D9A71F30025DB53 /* UIView+Extension.m in Sources */,
 				03F0C5E81D1543DD0097CF6F /* AppDelegate.m in Sources */,
 				03F0C5E51D1543DD0097CF6F /* main.m in Sources */,
 				03F0C6271D15545F0097CF6F /* WXDNews.m in Sources */,
@@ -505,7 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "31-无限滚动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wan.-1-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonsim.-1-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -516,7 +534,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "31-无限滚动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wan.-1-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonsim.-1-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -7,8 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+@class WXDCycleScrollView;
+
+@protocol WXDCycleScrollViewDelegate <NSObject>
+
+@optional
+/**
+ *  轮播图点击事件
+ */
+- (void)WXDCycleScrollView:(WXDCycleScrollView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
 
 @interface WXDCycleScrollView : UIView
+
+/**
+ *  设置轮播图的代理
+ */
+@property (nonatomic, weak) id<WXDCycleScrollViewDelegate> delegate;
 
 /**
  *  用来存放数据模型

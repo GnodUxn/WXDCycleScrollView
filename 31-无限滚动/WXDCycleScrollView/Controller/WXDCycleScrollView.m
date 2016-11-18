@@ -162,6 +162,13 @@
     return 0;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([self.delegate respondsToSelector:@selector(WXDCycleScrollView:didSelectItemAtIndexPath:)]) {
+        [self.delegate WXDCycleScrollView:self didSelectItemAtIndexPath:indexPath];
+    }
+}
+
 //必须用自定义的样式，必须用注册的格式
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
